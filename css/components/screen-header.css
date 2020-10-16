@@ -14,10 +14,14 @@
 
 .screen-header__icons {
   display: flex;
-  position: relative;
 }
 
 .screen-header__icons span {
+  margin-left: 32px;
+}
+
+.screen-header__icons div {
+  position: relative;
   margin-left: 32px;
 }
 
@@ -27,6 +31,6 @@
 
 .screen-header__icons--update {
   position: absolute;
-  left: 110px;
+  left: 20px;
   bottom: 20px;
 }
