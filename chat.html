@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Aaron - Kokoa Talk</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-user-lock"></i>
+            <span>100%</span>
+            <i class="far fa-battery-full fa-2x"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="far fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Aaron</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="far fa-search fa-2x"></i>
+            <i class="far fa-bars fa-2x"></i>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+        <div class="message-row">
+            <img src="https://avatars1.githubusercontent.com/u/35242791">
+            <div class="message-row__content">
+                <span class="message__author">Aaron</span>
+                <div class="message__content">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__content">
+                    <span class="message__bubble">What's up?</span>
+                    <span class="message__time">21:27</span>                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fal fa-plus-square fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="fal fa-surprise fa-2x"></i>
+            <button>
+                <i class="fal fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <script src="https://kit.fontawesome.com/7db60f68a2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
