@@ -17,13 +17,14 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
-  padding-top: 25px;
-  color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+	padding-top: 25px;
+	color: #2e363e;
+	font-family: "Open Sans", sans-serif;
 }
 
 .main-screen {
-  padding: 0px var(--horizontal-space);
+	padding: 0px var(--horizontal-space);
 }
